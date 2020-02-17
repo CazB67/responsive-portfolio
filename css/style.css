@@ -1,0 +1,24 @@
+.navbar-brand {
+   color: rgb(0, 0, 0);
+   background-color: rgb(185, 244, 245);
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+body {
+    background-color: rgba(245, 239, 239, 0.719);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.border {
+    border: black;
+    background-color:#ffffff;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) 
