@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url('../milky-way-2695569_1920.jpg');
+    background-image: url('../kilimanjaro2.jpg');
     
 }
  .footer  {
@@ -19,11 +19,14 @@ body {
      bottom: 0;
      width: 100%;
      height: 60px;
-     line-height: 60px;
+     color: #ffffff;
+     text-align: center;
  }
 
- .footer-copyright {
-     color: #ffffff;
- }
+
+
+ 
+
+
 
 
