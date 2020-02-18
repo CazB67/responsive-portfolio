@@ -10,7 +10,6 @@
     position: relative;
     justify-content: center;
     color: #ffffff;
-    font-size: 28px;
 }
 
 .navbar-nav {
@@ -18,9 +17,6 @@
     width: 100%;
 }
 
-.nav-item {
-    margin: 5px;
-}
 
 hr {
     border: solid;
@@ -42,11 +38,5 @@ body {
      color: #ffffff;
      text-align: center;
  }
-
-
-
- 
-
-
 
 
