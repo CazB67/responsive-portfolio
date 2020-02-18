@@ -1,24 +1,17 @@
-.navbar-brand {
-   color: rgb(0, 0, 0);
-   background-color: rgb(185, 244, 245);
+.navbar {
+    background-color: rgb(53, 53, 71);
 }
 
-.navbar {
-    background-color: #ffffff;
+.navbar-brand {
+    color: #ffffff;
+    font-size: 28px;
+}
+.nav-link {
+    color: #ffffff;
 }
 
 body {
-    background-color: rgba(245, 239, 239, 0.719);
+    background-image: url('../milky-way-2695569_1920.jpg');
+    
 }
 
-.container {
-    margin-top: 50px;
-}
-
-.border {
-    border: black;
-    background-color:#ffffff;
-    padding: 20px;
-}
-
-@media screen and (max-width: 768px) 
