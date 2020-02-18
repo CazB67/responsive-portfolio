@@ -34,10 +34,6 @@ body {
     
 }
 
-.img-fluid {
-    height: 150px;
-    width: 150px;
-}
  .footer  {
      position:fixed;
      bottom: 0;
