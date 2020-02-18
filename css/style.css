@@ -1,4 +1,4 @@
-.navbar {
+.navbar, .footer {
     background-color: rgb(53, 53, 71);
 }
 
@@ -14,4 +14,16 @@ body {
     background-image: url('../milky-way-2695569_1920.jpg');
     
 }
+ .footer  {
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+     height: 60px;
+     line-height: 60px;
+ }
+
+ .footer-copyright {
+     color: #ffffff;
+ }
+
 
