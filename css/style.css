@@ -2,16 +2,6 @@
     background-color: rgb(53, 53, 71);
 }
 
-.nav-link {
-    color: #ffffff;
-}
-
-.navbar-brand {
-    position: relative;
-    justify-content: center;
-    color: #ffffff;
-}
-
 .navbar-nav {
     flex-flow: row wrap;
     width: 100%;
@@ -19,8 +9,8 @@
 
 
 hr {
+    background-color: rgb(53, 53, 71);
     border: solid;
-    background-color: black;
     height:3px;
     width:100%
 }
@@ -35,12 +25,9 @@ body {
      bottom: 0;
      width: 100%;
      height: 30px;
-     color: #ffffff;
      text-align: center;
  }
 
- .color {
-     background-color: #ffffff;
- }
+
 
 

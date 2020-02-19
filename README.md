@@ -14,9 +14,12 @@ Bootstrap
 The pages `index.html`, `portfolio.html` and `contact.html` were created. Existing portfolio site were looked at for ideas and the sample pictures were broken down into their parts. The common elements to all three pages were created. These include navbar, footer and body background. Specific bootstrap responsive code was used to create the body of the three pages. Finally pages were checked for responsiveness on different devices using the inspect tool.
 
 ## Setup
-This has been deployed to the URL https://cazb67.github.io/code-refactor/
+This has been deployed to the URLs 
 
-The URL of the GitHub repository is https://github.com/CazB67/code-refactor
+The URL of index.html is https://cazb67.github.io/responsive-portfolio/
+The URL of portfolio.html is https://cazb67.github.io/responsive-portfolio/portfolio.html
+The URL of contact.html is  https://cazb67.github.io/responsive-portfolio/contact.html
+The URL of the GitHub repository is https://github.com/CazB67/responsive-portfolio
 
 ## Acknowledgements
 Team at UWA Coding Bootcamp
