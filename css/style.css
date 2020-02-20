@@ -17,7 +17,6 @@ hr {
 
 body {
     background-image: url('../kilimanjaro2.jpg');
-    
 }
 
  .footer  {
@@ -35,9 +34,9 @@ body {
  h1, h2 {
     font-family: 'IBM Plex Sans', sans-serif;
  }
+
  .cardbackground  {
     background-color: rgb(53, 53, 71);
- 
  }
 
 
