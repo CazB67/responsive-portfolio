@@ -9,7 +9,7 @@ This is an assignment to show learning of Bootstrap and an understanding of medi
 * Minimal use of media queries.
 
 ## Installation
-The pages `index.html`, `portfolio.html` and `contact.html` were created in VSCode. Existing portfolio sites were looked at for ideas and the sample portfolio images were broken down into their parts and plans drawn up. The common elements to all three pages were created. These include navbar, footer and body background. Specific bootstrap responsive code was used to create the body of the three pages. Finally pages were checked for responsiveness on different devices using the inspect tool. Bootstrap, HTML, CSS and Git were used to create the pages.
+The pages `index.html`, `portfolio.html` and `contact.html` were created in VSCode. Existing portfolio sites were looked at for ideas and the sample portfolio images were broken down into their parts and plans drawn up. The common elements to all three pages were created. These include navbar, footer and body background. Specific bootstrap responsive code was used to create the body of the three pages. Finally pages were checked for responsiveness on different devices using the inspect tool. Bootstrap, HTML, CSS and GitHub were used to create the pages.
 
 
 ## Usage
