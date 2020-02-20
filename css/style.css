@@ -28,8 +28,16 @@ body {
      text-align: center;
  }
 
- h1{
-     letter-spacing: 3px;
+ h1 {
+     letter-spacing: 2px;
+ }
+
+ h1, h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+ }
+ .cardbackground  {
+    background-color: rgb(53, 53, 71);
+ 
  }
 
 
