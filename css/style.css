@@ -1,5 +1,6 @@
 .navbar, .footer, .about-me {
     background-color: rgb(53, 53, 71);
+    color: #ffffff;
 }
 
 .navbar-nav {
@@ -43,6 +44,14 @@ body {
 
  .card-text {
      color: black;
+ }
+
+ .info {
+     background-color: #ffffff;
+ }
+
+ .container {
+     max-width: 100%;
  }
 
 
