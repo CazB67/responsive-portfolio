@@ -39,7 +39,7 @@ body {
  }
 
  .links {
-     font-size: 10pt;
+     font-size: 16pt;
  }
 
  .card-text {
@@ -54,6 +54,9 @@ body {
      max-width: 100%;
  }
 
+ p {
+     font-size: 16pt;
+ }
 
 
 
