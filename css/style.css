@@ -54,7 +54,7 @@ body {
      max-width: 100%;
  }
 
- p {
+ p.card-text {
      font-size: 16pt;
  }
 
