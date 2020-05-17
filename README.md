@@ -1,5 +1,6 @@
 
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Responsive Portfolio
+A responsive portfolio featuring CSS and Bootstrap
 
 ## Description
 This is an assignment to show learning of Bootstrap and an understanding of media responsiveness (the ability of a web application to render well on a variety of devices and windows or screen sizes). A functional responsive portfolio was created using the Bootstrap CSS Framework. This portfolio provides an opportunity to showcase developing skills, knowledge and understanding. This project has taught me how to use bootstrap as well as brought a deeper understanding of various code elements. It features the required items of
