@@ -57,5 +57,10 @@ body {
      font-size: 16pt;
  }
 
+ .icons {
+     color: black;
+     font-size: 0.7em;
+     font-weight: bold;
+ }
 
 
