@@ -71,6 +71,9 @@ body {
      font-family: monospace;
  }
 
+ .nav-link {
+    font-size: 16pt;
+}
 
 /* DEMO-SPECIFIC STYLES */
 .typewriter h1 {
