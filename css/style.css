@@ -78,3 +78,11 @@ body {
 #typewriter, .intro{
   color: #ffffff;
   }
+
+.card-body {
+    min-height: 20em;
+}
+
+.description {
+    font-size: 1em;
+}
