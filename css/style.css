@@ -16,10 +16,10 @@ hr {
 }
 
 body {
-    background-image: url('../images/kilimanjaro2.jpg');
+    background: url(../images/kilimanjaro2.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
-    background-size: cover; 
-    
+    background-size: cover;
+    height: 100%;
 }
 
  .footer  {
@@ -73,13 +73,15 @@ body {
  .entry {
      color: white;
      font-family: monospace;
+     -webkit-text-stroke-width: 0.5px; 
+     -webkit-text-stroke-color: black;
  }
 
  .nav-link {
     font-size: 20pt;
 }
 
-#typewriter, .intro{
+#typewriter {
   color: #ffffff;
   }
 
@@ -119,4 +121,8 @@ body {
   .btn:active {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+  .jumbotron {
+      background-color:rgb(53, 53, 71); 
   }
