@@ -105,3 +105,7 @@ body {
         -ms-transform: scale(1.3);
         transform: scale(1.3);
 }
+
+.nav-head, .about-me {
+    text-shadow: 4px 4px 4px #000000;
+}
