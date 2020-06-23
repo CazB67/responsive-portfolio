@@ -95,7 +95,7 @@ body {
     color: #ffffff;
     
 }
-.name:hover {
+.name:hover, .entry:hover {
     color: rgb(233, 144, 10)
 }
 
