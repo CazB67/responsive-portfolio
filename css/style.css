@@ -8,13 +8,6 @@
     width: 100%;
 }
 
-hr {
-    background-color: rgb(53, 53, 71);
-    border: solid;
-    height:3px;
-    width:100%
-}
-
 body {
     background: url(../images/kilimanjaro2.jpg) no-repeat center center fixed;
     background-repeat: no-repeat;
