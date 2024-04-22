@@ -115,3 +115,13 @@ body {
   .jumbotron {
       background-color:rgb(53, 53, 71); 
   }
+
+  .avatar {
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-right: 1rem;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
