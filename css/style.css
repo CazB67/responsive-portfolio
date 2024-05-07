@@ -96,13 +96,13 @@ p.card-text {
   text-decoration: none;
 }
 
-.grow {
+.img-links {
   width: 30px;
   height: 30px;
 }
 
 
- .link-group:hover {
+ .link-group:hover, .grow:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
