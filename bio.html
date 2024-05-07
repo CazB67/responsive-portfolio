@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     
 
     <title>Caroline Bates - Portfolio</title>
@@ -17,12 +17,8 @@
   <body>
     <!--Responsive navbar-->
     <nav class="navbar navbar-expand-sm pr-1">
-      <div class="container d-flex justify-content-center" >
-      <div class="navbar-brand d-flex">
-        <h1 class="text-white nav-head m-1">Caroline Bates</h1>
-      </div>
-      </div>
-        <ul class="navbar-nav d-flex justify-content-center" id="top">
+        <h1 class="text-white navigation start">Caroline Bates</h1>
+        <ul class="navigation" id="top">
           <li class="nav-item m-3">
             <a class="nav-link name nav-head" href="portfolio.html">Portfolio</a>
           </li>
@@ -35,24 +31,32 @@
 
     <!--container for card-->
     <main class="container p-3 mb-2">
-      <section class="card text-white mb-3 mt-4 ">
+      <section class="card text-white mb-3 mt-4 borderRadius">
         <h2 class="card-header about-me pt-3">About Me</h2>
         <div class="card-body mb-3">
           <img src="images/me.jpg" class="img-fluid float-left imgWithBorder" alt="photo of Caroline Bates">
-          <p class="card-text">  I am a Front End Web Developer leveraging a background in special education and primary teaching to build accessible and responsive web applications. I earned a certificate in Full Stack Development from the University of Western Australia Coding Bootcamp in 2020, and developed skills in JavaScript, CSS, JQuery, Node js, MySql, MongoDB, REACT and responsive web design. For the last 3.5years I have worked developing an application that allows jobseekers to create video job applications and allows recruiters and businesses to manage those applications. I am known as organised and hardworking with a flair for the creative. I am very driven to ensure a positive and smooth user experience and am excited to use my skills to develop applications that solve existing problems and exceed clients’ expectations. </p>
-          <p class="card-text">My hobbies include running, hiking and camping with my family. I also enjoy spending time at the beach and trying out new recipes.</p>
+          <p class="card-text">  I am a Front End Web Developer specialising in React and Typescript to deliver beautiful and functional solutions to users. With a background in special education and primary teaching, I aim to build accessible and responsive web applications. I earned a certificate in Full Stack Development from the University of Western Australia Coding Bootcamp in 2020, and developed skills in JavaScript, CSS, JQuery, Node js, MySql, MongoDB, REACT and responsive web design. For the last 3.5years I have worked developing an application that allows jobseekers to create video job applications and allows recruiters and businesses to manage those applications. I am known as organised and hardworking with a flair for the creative and an eye for spotting bugs. I am very driven to ensure a positive and smooth user experience and am excited to use my skills to develop applications that solve existing problems and exceed clients’ expectations. </p>
+          <p class="card-text">I have a beautiful family and enjoy watching my 3 children follow their passions. They are all particularly obssessed with basketball and I spend a lot of time watching them play, train and trying to keep up with them. My hobbies include running, hiking, watching sport and camping with my family. I also enjoy spending time at the beach and trying out new recipes.</p>
           <p class="card-text mb-4">Please enjoy perusing my portfolio as it grows through time and as my knowledge and skills develop.</p>
-          <div class="float-right">
-            <a href="CarolineBatesResume.pdf" class="mr-3" target="blank">
-              <img src="images/icons8-download-resume-50.png" title="Resume" class="grow" alt="resume icon">
-                </a>
-            <a href="https://github.com/CazB67" class="mr-3" title="gitHub" target="blank">
-          <img src="images/icon.png" class="grow" alt="github icon">
-            </a>
-            <a href="https://www.linkedin.com/in/caroline-portilla-bates/" title="LinkedIn" target="blank">
-            <img src="images/LI-In-Bug.png" class="grow" alt="linkedin icon">
-            </a>
-            <p class="icons">&nbsp Resume | &nbsp GitHub&nbsp  | &nbsp LinkedIn |</p>
+          <div class="links">
+            <div class="link-group">
+              <a href="CarolineBatesResume.pdf" class="" target="blank">
+                <img src="images/icons8-download-resume-50.png" title="Resume" class="grow" alt="resume icon">
+              </a>
+              <p class="icons">&nbsp Resume |</p>
+            </div>
+            <div class="link-group">
+              <a href="https://github.com/CazB67" class="" title="gitHub" target="blank"> 
+                <img src="images/icon.png" class="grow" alt="github icon">
+              </a>
+              <p class="icons"> &nbsp GitHub |</p>
+            </div>
+            <div class="link-group">
+              <a href="https://www.linkedin.com/in/caroline-portilla-bates/" title="LinkedIn" target="blank">
+                <img src="images/LI-In-Bug.png" class="grow" alt="linkedin icon">
+              </a>
+              <p class="icons">&nbsp LinkedIn |</p>
+            </div>
           </div>
         </div> 
       </section>

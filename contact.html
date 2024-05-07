@@ -9,28 +9,26 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
     <title>Caroline Bates - Portfolio</title>
   </head>
   <body>
     <!--Responsive navbar-->
     <nav class="navbar navbar-expand-sm pr-1">
-      <div class="container d-flex justify-content-center" >
-      <div class="navbar-brand d-flex">
-        <h1 class="text-white nav-head">Caroline Bates</h1>
-      </div>
-      </div>
-        <ul class="navbar-nav d-flex justify-content-center" id="top">
-          <li class="nav-item active m-3">
-            <a class="nav-link name nav-head" href="bio.html">About</a>
-          </li>
-          <li class="nav-item m-3">
-            <a class="nav-link name nav-head" href="portfolio.html">Portfolio</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <h1 class="text-white navigation start">Caroline Bates</h1>
+      <ul class="navigation" id="top">
+        <li class="nav-item m-3">
+          <a class="nav-link name nav-head" href="bio.html">About</a>
+        </li>
+        <li class="nav-item m-3">
+          <a class="nav-link name" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
     <main class="container p-5">
         <div class="row">
@@ -39,7 +37,7 @@
                 Email: <a href="mailto:caroline.portilla@gmail.com" class="text-white">caroline.portilla@gmail.com</a>
             </div>
             <div class="col-md-6"></div>
-            <div class="col-md-6 bg-white p-3">
+            <div class="col-md-6 bg-white p-3 borderRadius-bottom">
                 <form action="https://formspree.io/mbjzyvba" method="POST">
                   <div class="form-group">
                     <label for="Name">Name</label>
@@ -54,17 +52,25 @@
                     <textarea class="form-control" type="message" name="message" rows="3" required="required" data-error="Message is required."></textarea>
                     <input class="btn btn-primary mt-2" type="submit" value="Submit">
                   </div>
-                  <div class="float-right">
-                    <a href="CarolineBatesResume.pdf" class="mr-3" target="blank">
-                      <img src="images/icons8-download-resume-50.png" title="Resume" class="grow" alt="resume icon">
-                        </a>
-                    <a href="https://github.com/CazB67" class="mr-3" title="gitHub"  target="blank">
-                    <img src="images/icon.png" class="grow" alt="github icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/caroline-portilla-bates/" title="LinkedIn"  target="blank">
-                    <img src="images/LI-In-Bug.png" alt="linkedin icon" class="grow">
-                    </a>
-                    <p class="icons">Resume &nbsp  | &nbsp GitHub &nbsp | &nbsp LinkedIn</p>
+                  <div class="links">
+                    <div class="link-group">
+                      <a href="CarolineBatesResume.pdf" class="" target="blank">
+                        <img src="images/icons8-download-resume-50.png" title="Resume" class="grow" alt="resume icon">
+                      </a>
+                      <p class="icons">&nbsp Resume |</p>
+                    </div>
+                    <div class="link-group">
+                      <a href="https://github.com/CazB67" class="" title="gitHub" target="blank"> 
+                        <img src="images/icon.png" class="grow" alt="github icon">
+                      </a>
+                      <p class="icons"> &nbsp GitHub |</p>
+                    </div>
+                    <div class="link-group">
+                      <a href="https://www.linkedin.com/in/caroline-portilla-bates/" title="LinkedIn" target="blank">
+                        <img src="images/LI-In-Bug.png" class="grow" alt="linkedin icon">
+                      </a>
+                      <p class="icons">&nbsp LinkedIn |</p>
+                    </div>
                   </div>
                 </form>
             </div>
