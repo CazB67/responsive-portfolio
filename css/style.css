@@ -23,7 +23,7 @@ body {
   width: 100%;
   height: 30px;
   text-align: center;
-  background-color: rgb(53, 53, 71, .9);
+  background-color: rgb(53, 53, 71, 0.9);
   color: #ffffff;
   .footer-text {
     display: flex;
@@ -109,8 +109,8 @@ p.card-text {
   height: 30px;
 }
 
-
- .link-group:hover, .grow:hover {
+.link-group:hover,
+.grow:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
